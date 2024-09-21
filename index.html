@@ -4,54 +4,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AluraBook</title>
+  <title>AluraBooks</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">  
 </head>
 
 <body>
-      <h1>Alurabook</h1>
+  <header class="cabecalho">
+    
+    <div class="comtainer">
+    
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabecalho__menu-hamburguer container__imagem"></span>
+      </label>
+
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Programação</a></li>
+        
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Front-end</a></li>
+        
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Infraestrutura</a></li>
+        
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Bussines</a></li>
+        
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Design & UX</a></li>
+
+      </ul>
+
+      <img class="container__imagem" src="img/Logo.svg" alt="AluraBooks' Logo">
+
+    </div>
+
+    <div class="container">
+      <a class="container__imagem" href="#"> <img src="img/Favoritos.svg" alt="Wishlist"></a>
+      
+      <a class="container__imagem" href="#"><img src="img/Compras.svg" alt="Cart"></a>
+      
+      <a class="container__imagem" href="#"><img src="img/Usuario.svg" alt="My profile"></a>  
+    </div>
+  
+  </header>
 </body>
-</html>html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+</html>
